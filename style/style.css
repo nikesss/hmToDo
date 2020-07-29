@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 100px;
+  text-align: center;
+}
+.center {
+  max-width: 1290px;
+  margin: 0 auto;
+  margin: 5%;
+}
+.inputTask {
+  width: 300px;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 40px;
+}
+ul {
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+li {
+  display: flex;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+li > #task {
+  margin: 0 10px;
+}
+span{
+    color: red;
+    cursor: pointer;
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
